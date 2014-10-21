@@ -1,3 +1,8 @@
+/* Pull local Farers market data from the USDA API and display on 
+** Google Maps using GeoLocation or user input zip code. By Paul Dessert
+** www.pauldessert.com | www.seedtip.com
+*/
+
 $(function() {
 	//var geocoder = new google.maps.Geocoder();
 	
