@@ -4,7 +4,6 @@
 */
 
 $(function() {
-	//var geocoder = new google.maps.Geocoder();
 	
 		var marketId = []; //returned from the API
 		var allLatlng = []; //returned from the API
@@ -62,9 +61,6 @@ $(function() {
 	
 	//Fire up Google maps and place inside the map-canvas div
 	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-	
-	
-	//End Video 1 here
 
 	//grab form data
     $('#chooseZip').submit(function() { // bind function to submit event of form
