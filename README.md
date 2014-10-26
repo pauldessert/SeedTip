@@ -9,3 +9,9 @@ the <a href="https://developers.google.com/maps/documentation/javascript/tutoria
 A basic, responsive front end is included.
 
 See a live working sample at www.seedtip.com
+
+View the 4 part tutorial on YouTube
+Part 1 - https://www.youtube.com/watch?v=lVhDux1vmIU
+Part 2 - https://www.youtube.com/watch?v=ygNn7P-Fas4
+Part 3 - https://www.youtube.com/watch?v=vImMDfaqA2A
+Part 4 - https://www.youtube.com/watch?v=Hv76o8PEKwk
