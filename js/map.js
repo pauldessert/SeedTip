@@ -115,8 +115,10 @@ $(function() {
 								var latLong = decodeURIComponent(googleLink.substring(googleLink.indexOf("=")+1, googleLink.lastIndexOf("(")));
 								
 								var split = latLong.split(',');
-								var latitude = split[0];
-								var longitude = split[1];
+								
+								//covert values to floats, to play nice with .LatLng() below.
+								var latitude = parseFloat(split[0]);
+								var longitude = parseFloat(split[1]);
 								
 								//set the markers.	  
 								myLatlng = new google.maps.LatLng(latitude,longitude);
